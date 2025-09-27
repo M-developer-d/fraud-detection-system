@@ -8,8 +8,8 @@ fake = Faker()
 # MySQL connection
 conn = mysql.connector.connect(
     host="localhost",   
-    user="root",        
-    password="MOHAN@14_2007", 
+    user="USER_NAME",        
+    password="YOUR_PASS", 
     database="FRAUD_DETECTION"
 )
 cursor = conn.cursor()
